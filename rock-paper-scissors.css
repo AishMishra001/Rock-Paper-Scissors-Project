@@ -34,7 +34,15 @@ body {
   font-size: 20px;
 }
 
-.reset-score-button {
+.reset-score-button{
+  
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+  }
+
+
+.auto-play-button{
   padding: 10px;
   cursor: pointer;
   background-color: white;
