@@ -78,10 +78,10 @@ function playGame(playerMove) {
   localStorage.setItem('score', JSON.stringify(score));
 
   updateScoreElement();
-  document.querySelector('.js-result').innerHTML = result;
-  document.querySelector('.js-moves').innerHTML = `You <img src="Images/${playerMove}-emoji.png" class="moves-icon"> <img src="Images/${computerMove}-emoji.png"  class="moves-icon"> Computer `;
-
-
+  document.querySelector('.js-result').innerHTML = result ;
+  document.querySelector('.js-moves').innerHTML = `
+  You <img src="Images/${playerMove}-emoji.png" class="moves-icon">
+<img src="Images/${computerMove}-emoji.png"  class="moves-icon"> Computer`;
 }
 
 function updateScoreElement() {

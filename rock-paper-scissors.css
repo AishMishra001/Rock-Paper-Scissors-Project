@@ -44,6 +44,20 @@ body {
 
 .auto-play-button{
   padding: 10px;
+
   cursor: pointer;
   background-color: white;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

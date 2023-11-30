@@ -4,11 +4,14 @@
 <head>
   <title>Rock Paper Scissors</title>
 
-  <link rel="stylesheet" href="CSS/12_rock-paper-scissors.css">
+  <link rel="stylesheet" href="rock-paper-scissors.css">
 </head>
 
 <body>
+  <div class="container">
   <p class="title">Rock Paper Scissors</p>
+</div>
+<div class="container">
   <button onclick="
       playGame('rock');
     "class="moves-button" >
@@ -26,10 +29,13 @@
     " class="moves-button">
   <img src="../Images/scissors-emoji.png" alt="" class="moves-icon">  
   </button>
-  <p class="js-result result"></p>
-  <p class="js-moves"></p>
-  <p class="js-score score"></p>
-
+</div>
+ <div class="container1">
+   <p  class="js-result result"></p>
+   <p class="js-moves"></p>
+   <p class="js-score score"></p>
+  </div>
+<div class="container">
   <button onclick="
     score.wins = 0 ;
     score.losses = 0 ;
@@ -41,8 +47,9 @@
     <button class="auto-play-button" onclick="
     autoPlay();
     ">AutoPlay</button>
+   </div>
 
-  <script src="Scripts/12_rock-paper-scissors.js"></script>
+  <script src="rock-paper-scissors.js"></script>
 </body>
 
 </html>
