@@ -61,3 +61,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.main{
+  height: 800px;
+  width: 600px;
+  border: 2px solid grey;
+  /* display: flex;
+  align-items: centre;
+  justify-content: center; */
+}
