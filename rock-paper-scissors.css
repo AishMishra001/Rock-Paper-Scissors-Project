@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(25, 25, 25);
+  background-color:  black;
   font-family: Arial;
   font-size: 20px;
   color: white;
@@ -68,6 +68,7 @@ body {
 }
 
 .main{
+  background-color: rgb(21, 21, 21);
   height: 800px;
   width: 600px;
   border: 2px solid grey;
