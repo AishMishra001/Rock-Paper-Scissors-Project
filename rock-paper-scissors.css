@@ -8,7 +8,12 @@ body {
   font-family: Arial;
   font-size: 20px;
   color: white;
-}
+    margin: 0;
+    display: grid;
+    height: 100vh; /* Set the body height to 100% of the viewport height */
+    place-items: center; /* Center the grid items both horizontally and vertically */
+  }
+
 
 .moves-icon {
   height: 80px;
